@@ -16,7 +16,7 @@ namespace DZ
             int[] array = new int[lengthArray];
             FillArray(array);
 
-            Console.WriteLine($"Сгенерирован массив из {lengthArray} элементов: [{string.Join(",",array)}]"); // Нашёл в интернете такой вариант вывода массива в одну строку =)
+            Console.WriteLine($"Сгенерирован массив из {lengthArray} элементов: [{String.Join(",",array)}]"); // Нашёл в интернете такой вариант вывода массива в одну строку =)
             
             int[] newArray = new int[lengthArray];
 
@@ -26,7 +26,7 @@ namespace DZ
             {
                 newArray[i] = array[i] * array[i];
             }
-            Console.WriteLine($"Массив квадратов этих чисел: [{string.Join(",",newArray)}]");
+            Console.WriteLine($"Массив квадратов этих чисел: [{String.Join(",",newArray)}]");
             Console.ReadKey();
         }
 
